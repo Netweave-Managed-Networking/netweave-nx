@@ -62,7 +62,11 @@
           "buildTarget": "netweave-web:build:development"
         }
       },
-      "defaultConfiguration": "development"
+      "defaultConfiguration": "development",
+      "dependsOn": ["netweave-api:serve"],
+      "options": {
+        "proxyConfig": "apps/netweave-web/proxy.conf.json"
+      }
     },
     "lint": {
       "executor": "@nx/eslint:lint"
