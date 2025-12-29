@@ -64,6 +64,17 @@
         "targetName": "test"
       },
       "exclude": ["apps/netweave-api-e2e/**/*"]
+    },
+    {
+      "plugin": "@nx/docker",
+      "options": {
+        "buildTarget": {
+          "name": "docker:build"
+        },
+        "runTarget": {
+          "name": "docker:run"
+        }
+      }
     }
   ],
   "generators": {
