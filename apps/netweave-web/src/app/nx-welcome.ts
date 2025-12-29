@@ -1,5 +1,5 @@
-import { Component, ViewEncapsulation } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { Component, ViewEncapsulation } from '@angular/core';
 
 @Component({
   selector: 'app-nx-welcome',
@@ -511,7 +511,7 @@ import { CommonModule } from '@angular/common';
         <div id="welcome">
           <h1>
             <span> Hello there, </span>
-            Welcome netweave 👋
+            Welcome netweave-web 👋
           </h1>
         </div>
         <!--  HERO  -->
@@ -880,7 +880,7 @@ nx run-many -t build test lint</pre>
               </svg>
               View project details
             </summary>
-            <pre>nx show project netweave</pre>
+            <pre>nx show project netweave-web</pre>
           </details>
 
           <details>

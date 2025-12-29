@@ -1,29 +1,29 @@
 {
-  "name": "netweave",
+  "name": "netweave-web",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
   "prefix": "app",
-  "sourceRoot": "apps/netweave/src",
+  "sourceRoot": "apps/netweave-web/src",
   "tags": [],
   "targets": {
     "build": {
       "executor": "@angular/build:application",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/apps/netweave",
-        "browser": "apps/netweave/src/main.ts",
-        "tsConfig": "apps/netweave/tsconfig.app.json",
+        "outputPath": "dist/apps/netweave-web",
+        "browser": "apps/netweave-web/src/main.ts",
+        "tsConfig": "apps/netweave-web/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
         "assets": [
           {
             "glob": "**/*",
-            "input": "apps/netweave/public"
+            "input": "apps/netweave-web/public"
           }
         ],
-        "styles": ["apps/netweave/src/styles.scss"],
-        "server": "apps/netweave/src/main.server.ts",
+        "styles": ["apps/netweave-web/src/styles.scss"],
+        "server": "apps/netweave-web/src/main.server.ts",
         "ssr": {
-          "entry": "apps/netweave/src/server.ts"
+          "entry": "apps/netweave-web/src/server.ts"
         },
         "outputMode": "server"
       },
@@ -56,10 +56,10 @@
       "executor": "@angular/build:dev-server",
       "configurations": {
         "production": {
-          "buildTarget": "netweave:build:production"
+          "buildTarget": "netweave-web:build:production"
         },
         "development": {
-          "buildTarget": "netweave:build:development"
+          "buildTarget": "netweave-web:build:development"
         }
       },
       "defaultConfiguration": "development"
@@ -75,9 +75,9 @@
       "continuous": true,
       "executor": "@nx/web:file-server",
       "options": {
-        "buildTarget": "netweave:build",
+        "buildTarget": "netweave-web:build",
         "port": 4200,
-        "staticFilePath": "dist/apps/netweave/browser",
+        "staticFilePath": "dist/apps/netweave-web/browser",
         "spa": true
       }
     }
