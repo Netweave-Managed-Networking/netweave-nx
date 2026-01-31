@@ -17,7 +17,6 @@ rectangle Netweave {
   usecase "Empfehlung erzeugen" as UC8
   usecase "Empfehlung versenden" as UC9
   usecase "Fragebogen aktualisieren" as UC10
-  usecase "Matching-Ergebnisse einsehen" as UC11
 }
 
 ' Admin is an Editor
@@ -30,7 +29,6 @@ Admin --> UC1
 ' Editor
 Editor --> UC2
 Editor --> UC6
-Editor --> UC11
 
 ' Organisation
 Organisation --> UC4
