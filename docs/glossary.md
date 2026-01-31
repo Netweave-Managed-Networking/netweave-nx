@@ -220,10 +220,10 @@ Wird durch den [Admin](#admin) verwaltet, beispielhafter Ablauf:
 
 ## Rollenübersicht
 
-| Rolle              | Beschreibung                                                   |
-| ------------------ | -------------------------------------------------------------- |
-| Admin              | Systemrolle mit erweiterten Rechten inkl. Zuganslinkverwaltung |
-| Editor             | Operative Systemrolle für Netzwerkarbeit                       |
-| Netzwerkberater    | Fachliche Bezeichnung für Admin / Editor                       |
-| Netzwerkteilnehmer | Organisation im Netzwerk                                       |
-| Organisation       | entspricht Netzwerkteilnehmer                                  |
+| Rolle                                     | Beschreibung                                                   |
+| ----------------------------------------- | -------------------------------------------------------------- |
+| [Admin](#admin)                           | Systemrolle mit erweiterten Rechten inkl. Zuganslinkverwaltung |
+| [Editor](#editor)                         | Operative Systemrolle für Netzwerkarbeit                       |
+| [Netzwerkberater](#netzwerkberater)       | Fachliche Bezeichnung für Admin / Editor                       |
+| [Netzwerkteilnehmer](#netzwerkteilnehmer) | Organisation im Netzwerk                                       |
+| Organisation                              | entspricht Netzwerkteilnehmer                                  |
