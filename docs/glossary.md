@@ -177,7 +177,7 @@ Eigenschaften:
 
 - immer einer [Ressourcenkategorie](#ressourcenkategorie) zugeordnet
 - Wichtiger Baustein für den [Matching-Score](#matching-score)
-- Gegenstück zum [Bdearf](#bedarf)
+- Gegenstück zum [Bedarf](#bedarf)
 
 ---
 
