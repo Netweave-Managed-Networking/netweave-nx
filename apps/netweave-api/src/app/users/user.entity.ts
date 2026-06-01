@@ -1,0 +1,12 @@
+// apps/netweave-api/src/users/user.entity.ts
+import { Column, Entity } from 'typeorm';
+import { BaseEntity } from '../db/entity/base/base.entity';
+
+@Entity()
+export class User extends BaseEntity {
+  @Column({ unique: true })
+  declare email: string;
+
+  @Column()
+  declare passwordHash: string;
+}
